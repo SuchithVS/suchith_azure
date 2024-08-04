@@ -1,0 +1,59 @@
+[versions]
+agp = "8.5.1"
+circleprogress = "1.2.1"
+firebaseAuthVersion = "23.0.0"
+firebaseBom = "33.1.1"
+firebaseDatabaseVersion = "21.0.0"
+firebasePerf = "21.0.1"
+firebaseUiDatabase = "8.0.2"
+itextpdf = "5.5.13.3"
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+appcompat = "1.7.0"
+lottie = "6.0.0"
+material = "1.12.0"
+activity = "1.9.0"
+constraintlayout = "2.1.4"
+googleServices = "4.4.2"
+firebaseAuth = "23.0.0"
+firebaseDatabase = "21.0.0"
+firebaseFirestore = "25.0.0"
+mpandroidchart = "3.1.0"
+mpandroidchartVersion = "v3.1.0"
+opencsv = "5.5"
+poiOoxml = "5.2.3"
+poi = "5.2.3"
+progressbutton = "2.1.0"
+
+
+[libraries]
+circleprogress = { module = "com.github.lzyzsd:circleprogress", version.ref = "circleprogress" }
+firebase-auth-v2212 = { module = "com.google.firebase:firebase-auth", version.ref = "firebaseAuthVersion" }
+firebase-bom = { module = "com.google.firebase:firebase-bom", version.ref = "firebaseBom" }
+firebase-database-v2022 = { module = "com.google.firebase:firebase-database", version.ref = "firebaseDatabaseVersion" }
+firebase-perf = { module = "com.google.firebase:firebase-perf", version.ref = "firebasePerf" }
+firebase-storage = { module = "com.google.firebase:firebase-storage", version.ref = "firebaseDatabase" }
+firebase-ui-database = { module = "com.firebaseui:firebase-ui-database", version.ref = "firebaseUiDatabase" }
+itextpdf = { module = "com.itextpdf:itextpdf", version.ref = "itextpdf" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+ext-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+lottie = { module = "com.airbnb.android:lottie", version.ref = "lottie" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+google-services = { group = "com.google.gms", name = "google-services", version.ref = "googleServices" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth", version.ref = "firebaseAuth" }
+firebase-database = { group = "com.google.firebase", name = "firebase-database", version.ref = "firebaseDatabase" }
+firebase-firestore = { group = "com.google.firebase", name = "firebase-firestore", version.ref = "firebaseFirestore" }
+mpandroidchart = { module = "com.github.PhilJay:MPAndroidChart", version.ref = "mpandroidchart" }
+opencsv = { module = "com.opencsv:opencsv", version.ref = "opencsv" }
+poi-ooxml = { module = "org.apache.poi:poi-ooxml", version.ref = "poiOoxml" }
+poi = { module = "org.apache.poi:poi", version.ref = "poi" }
+progressbutton = { module = "com.github.razir.progressbutton:progressbutton", version.ref = "progressbutton" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+

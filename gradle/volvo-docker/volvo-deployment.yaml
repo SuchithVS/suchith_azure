@@ -1,0 +1,20 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: volvo-demo-app
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: volvo-demo-app
+  template:
+    metadata:
+      labels:
+        app: volvo-demo-app
+    spec:
+      containers:
+      - name: volvo-demo-app
+        image: volvo-demo-app:latest
+        imagePullPolicy: Never
+        ports:
+        - containerPort: 8080

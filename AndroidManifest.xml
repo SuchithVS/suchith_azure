@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:requestLegacyExternalStorage="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Volvo"
+        tools:targetApi="31">
+        <activity
+            android:name=".Temp"
+            android:exported="false" />
+        <activity
+            android:name=".AddForklift"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateforkliftActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AddVolvoXC90Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateVolvoXC90Activity"
+            android:exported="false" />
+        <activity
+            android:name=".UpdateNutsBoltsActivity"
+            android:exported="false" /> <!-- Your existing activity declarations -->
+        <activity
+            android:name=".AddNutsBoltsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Analytics"
+            android:exported="false" />
+        <activity
+            android:name=".Settings"
+            android:exported="false" />
+        <activity
+            android:name=".Customer_support"
+            android:exported="false" />
+        <activity
+            android:name=".Ca_Forklifts"
+            android:exported="false" />
+        <activity
+            android:name=".C_Maintnance"
+            android:exported="false" />
+        <activity
+            android:name=".ba_volvo_xc90"
+            android:exported="false" />
+        <activity
+            android:name=".B_Spares_Managament"
+            android:exported="false" />
+        <activity
+            android:name=".ab_nuts_bolts_form"
+            android:exported="false" />
+        <activity
+            android:name=".Aa_nuts_bolts"
+            android:exported="false" />
+        <activity
+            android:name=".A_asset_management"
+            android:exported="false" />
+        <activity
+            android:name=".Forgot_password"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome_screen"
+            android:exported="false" />
+        <activity
+            android:name=".Signup_page"
+            android:exported="false" />
+        <activity
+            android:name=".Login_page"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Page"
+            android:exported="false" />
+        <activity
+            android:name=".Splash_screen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "802380334796",
+    "project_id": "volvo-new-386a1",
+    "storage_bucket": "volvo-new-386a1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:802380334796:android:8cc0aa9ff56639a0b1e469",
+        "android_client_info": {
+          "package_name": "com.suchith.volvo_new"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBH3xOs-7Skw8mOJCgpui7GTgehwvNoxNg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
