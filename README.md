@@ -1,1 +1,0 @@
-# suchith_azure
